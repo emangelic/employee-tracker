@@ -27,16 +27,16 @@ console.log("                                    ")
 
 inquierer
     .prompt({
-        name: "actionType",
+        name: "choiceType",
         type: "list",
         message: "Would you like to [VIEW], [ADD], [DELETE], or [UPDATE] an employee, department, or salary?",
         choices: ["VIEW", "ADD", "DELETE", "UPDATE", "EXIT"]
     })
     .then(function (answer) {
-        if (answer.actionType === "VIEW") {
+        if (answer.choiceType === "VIEW") {
             selectBy_VIEW();
         }
         else
     })
 
-}
+} 
