@@ -27,7 +27,7 @@ Follow these steps to set up the project locally:
 - Navigate to the project directory:
 - Install dependencies using npm i and npm start on the command line interface. 
 
-The app should now be running on http://localhost:3000.
+The app should now be running on http://localhost:3001.
 
 ## USAGE
 
